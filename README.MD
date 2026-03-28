@@ -24,7 +24,6 @@ This project implements an intent classification model for manifestation journal
 - Provide contextually appropriate responses based on detected user intent
 
 ### Motivation
-Creating a texting-app like app for journaling/affirmation stuff your thoughts without using genrative ai for privacy and marketing worries. 
 Creating a journaling and affirmations app that feels like a texting app while avoiding generative AI because of privacy concerns and because the use of genAI can be a marketing disadvantage.
 
 ---
