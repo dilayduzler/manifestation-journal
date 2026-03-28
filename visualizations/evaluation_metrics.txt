@@ -1,0 +1,44 @@
+############################################################
+Intent Classification Eval Results
+############################################################
+
+Test Accuracy: 85.25%
+Precision: 0.854
+Recall: 0.853
+F1-Score: 0.852
+
+Average Confidence: 82.9%
+Rule Overrides: 6/373 (1.6%)
+
+############################################################
+PER-CLASS PERFORMANCE
+############################################################
+
+              precision    recall  f1-score   support
+
+ celebrating      0.740     0.771     0.755        70
+  struggling      0.869     0.746     0.803        71
+    grateful      0.862     0.933     0.896        60
+ questioning      0.931     0.857     0.893        63
+      ending      0.895     0.962     0.927        53
+     neutral      0.847     0.893     0.870        56
+
+    accuracy                          0.853       373
+   macro avg      0.857     0.861     0.857       373
+weighted avg      0.854     0.853     0.852       373
+
+############################################################
+CONFIDENCE ANALYSIS
+############################################################
+
+Correct Predictions:
+Count: 318/373 (85.3%)
+Avg Confidence: 86.3%
+Min Confidence: 27.5%
+Max Confidence: 100.0%
+
+Incorrect Predictions:
+Count: 55/373 (14.7%)
+Avg Confidence: 63.2%
+Min Confidence: 24.5%
+Max Confidence: 96.8%

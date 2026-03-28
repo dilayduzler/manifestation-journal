@@ -1,0 +1,52 @@
+{
+   "greeting": [
+    "Hey bestie! What's going on?",
+    "Hi! Tell me everything!",
+    "Hey! What's on your mind?",
+    "Hiii! What happened today??"
+  ],
+  
+  "story_starter": [
+    "TELL ME EVERYTHING!!",
+    "OMG WHAT HAPPENED??",
+    "I'm listening!! Spill it!!",
+    "Wait what?? Go on!!"
+  ],
+
+  "celebrating": [
+    "[CELEBRATING DUMMY 0]",
+    "[CELEBRATING DUMMY 1]",
+    "[CELEBRATING DUMMY 2]",
+    "[CELEBRATING DUMMY 3]"
+  ],
+  "struggling": [
+    "[STRUGGLING DUMMY 0]",
+    "[STRUGGLING DUMMY 1]",
+    "[STRUGGLING DUMMY 2]",
+    "[STRUGGLING DUMMY 3]"
+  ],
+  "grateful": [
+    "[GRATEFUL DUMMY 0]",
+    "[GRATEFUL DUMMY 1]",
+    "[GRATEFUL DUMMY 2]",
+    "[GRATEFUL DUMMY 3]"
+  ],
+  "questioning": [
+    "[QUESTIONING DUMMY 0]",
+    "[QUESTIONING DUMMY 1]",
+    "[QUESTIONING DUMMY 2]",
+    "[QUESTIONING DUMMY 3]"
+  ],
+  "ending": [
+    "[ENDING DUMMY 0]",
+    "[ENDING DUMMY 1]",
+    "[ENDING DUMMY 2]",
+    "[ENDING DUMMY 3]"
+  ],
+  "neutral": [
+    "[NEUTRAL DUMMY 0]",
+    "[NEUTRAL DUMMY 1]",
+    "[NEUTRAL DUMMY 2]",
+    "[NEUTRAL DUMMY 3]"
+  ]
+}

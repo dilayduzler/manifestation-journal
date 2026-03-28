@@ -1,0 +1,18 @@
+[project]
+name = "manifestation-journal"
+version = "0.1.0"
+description = "Manifestation journaling app with intent classification using DistilBERT with custom layers"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    {name = "Dilay Düzler", email = "dilayduzler@gmail.com"}
+]
+dependencies = [
+    "fastapi==0.135.1",
+    "uvicorn==0.42.0",
+    "torch==2.1.0",
+    "transformers==4.30.0",
+    "pydantic==2.12.5",
+    "python-multipart==0.0.22",
+    "numpy>=1.26.0,<2.0.0",
+]

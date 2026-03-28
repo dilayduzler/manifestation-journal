@@ -1,0 +1,97 @@
+.home-container {
+  height: 100vh;
+  background: #121212;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.home-header {
+  text-align: center;
+  color: #f0f0f0;
+  margin-bottom: 50px;
+}
+
+.home-header h1 {
+  font-size: 32px;
+  margin: 0 0 10px 0;
+  background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-header p {
+  font-size: 16px;
+  opacity: 0.6;
+  margin: 0;
+  color: #ccc;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.home-btn {
+  background: #1e1e1e;
+  border: 1px solid #2e2e2e;
+  border-radius: 20px;
+  padding: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-btn:hover {
+  transform: translateY(-5px);
+  border-color: #ff6b6b;
+  box-shadow: 0 6px 20px rgba(255, 107, 107, 0.2);
+}
+
+.home-btn:active {
+  transform: translateY(-2px);
+}
+
+.btn-icon {
+  font-size: 48px;
+}
+
+.btn-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #f0f0f0;
+}
+
+.btn-subtitle {
+  font-size: 14px;
+  color: #888;
+}
+
+.theme-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.theme-btn:hover {
+  opacity: 1;
+}
+
+/* hovers */
+.chat-btn:hover { border-color: #ff6b6b; }
+.notes-btn:hover { border-color: #ff8e53; }
+.help-btn:hover { border-color: #ffb347; }

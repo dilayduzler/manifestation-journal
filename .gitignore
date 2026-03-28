@@ -1,0 +1,11 @@
+journal/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.pt
+*.bin
+*.pth
+frontend/node_modules/
+frontend/build/
+.DS_Store
